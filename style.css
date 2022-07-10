@@ -1,0 +1,75 @@
+body{
+    height: 98vh;
+    background-color: white;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.data1{
+    border-radius: 20px;
+    background-image: url(https://picsum.photos/400/700);
+    height: 85vh;
+    width: 50vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    box-shadow:10px 8px 10px 2px #888888;
+    
+}
+form{
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   justify-content: space-around;
+   color: grey;
+   font-size: 30px;
+}
+
+button{
+    border-radius: 8px;
+    border-color: aliceblue;
+    background-color: rgb(231, 83, 33);
+    color: white;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+#temperature{
+    padding-top: 50px;
+}
+.data1>h1{
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+button:hover{
+    background-color: beige;
+    color: rgb(231, 83, 33);
+    cursor: pointer;
+    font-weight: thick;
+}
+/* .row1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    height: 49vh;
+    width: auto;
+}
+#box1{
+    min-width: 20%;
+    height: 50%;
+    background-color: purple;
+    border-radius: 8px;
+} */
